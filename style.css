@@ -1,0 +1,170 @@
+/*body {
+  color : black;
+  background-color: #f1f1f1;
+}
+*/
+/*@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");*/
+
+/* Colors and Fonts */
+body {
+background: #f1f1f1;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+color: #48466d;
+font-size: 15px;
+line-height:1.6em;
+}
+
+h1, h2, h3{
+font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #866ec7;
+  font-size: 30px;
+}
+
+h2{
+  color: #46cdcf;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 600;
+  color : 866ec7;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #48466d;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #3d84a8;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/* First simple components */
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-blue{
+  background-color: #866ec7;
+  color: white;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 4px;
+}
+.btn-blue:hover{
+  background-color: #3d84a8;
+  color: white;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 300px;
+  height: 300px;
+  border: 3px solid #abedd8;
+}
+#random_facts{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#random_facts img{
+  width: 270px;
+}
+#random_facts td{
+  padding: 10px;
+}
+
+/* Fixed sidebar layout */
+
+#page-content {
+  margin-left: 130px;
+}
+
+#sidebar {
+  background-color: #866ec7;
+  position: fixed;
+  text-align: center;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #abedd8;
+}
+
+#sidebar a:hover {
+  color: white;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
